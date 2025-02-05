@@ -73,6 +73,7 @@ bash
 Copy
 Edit
 yarn build
+
 🗝️ Environment Variables
 Variable	Description
 VITE_apiKey	Firebase API Key
@@ -81,9 +82,11 @@ VITE_projectId	Firebase Project ID
 VITE_storageBucket	Firebase Storage Bucket
 VITE_messagingSenderId	Firebase Messaging Sender
 VITE_appId	Firebase App ID
+
 Ensure these are kept secure and never exposed publicly.
 
 📦 Dependencies
+
 Production:
 React ^18.3.1 – Frontend library
 React Router DOM ^7.0.2 – Routing
@@ -94,11 +97,7 @@ Tailwind CSS ^3.4.16 & DaisyUI ^4.12.22 – Styling
 LocalForage ^1.10.0 – Local storage
 SweetAlert2 ^11.15.2 – Alert modals
 Swiper ^11.1.15 – Carousel/slider functionality
-Development:
-Vite ^6.0.1 – Build tool
-ESLint ^9.15.0 – Linting
-PostCSS ^8.4.49 & Autoprefixer ^10.4.20 – CSS processing
-React Hot Toast ^2.4.1 – Notifications
+
 📂 Project Structure
 plaintext
 Copy
