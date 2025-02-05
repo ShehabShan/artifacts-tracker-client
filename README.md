@@ -89,32 +89,24 @@ Ensure these are kept secure and never exposed publicly.
 
 Production:
 React ^18.3.1 – Frontend library
+
 React Router DOM ^7.0.2 – Routing
+
 Firebase ^11.1.0 – Backend services
+
 Axios ^1.7.9 – API requests
+
 MUI ^6.2.1 – UI components
+
 Tailwind CSS ^3.4.16 & DaisyUI ^4.12.22 – Styling
+
 LocalForage ^1.10.0 – Local storage
+
 SweetAlert2 ^11.15.2 – Alert modals
+
 Swiper ^11.1.15 – Carousel/slider functionality
 
-📂 Project Structure
-plaintext
-Copy
-Edit
-historical-artifacts-tracker/
-├── public/                # Static files
-├── src/
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # Application pages
-│   ├── services/          # API & Firebase integration
-│   ├── styles/            # Global styles
-│   └── App.jsx            # Main application file
-├── .env                   # Environment variables
-├── package.json           # Project metadata & dependencies
-└── vite.config.js         # Vite configuration
-🤝 Contributing
-Contributions are welcome!
+
 
 Fork the repository.
 Create a new branch: git checkout -b feature/your-feature-name
